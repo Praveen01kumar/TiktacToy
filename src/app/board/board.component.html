@@ -1,0 +1,15 @@
+
+<nav class="navbar navbar-dark bg-primary">
+    <h1 >Current Player: <span>{{player}}</span></h1>
+    <h4 class="alert alert-info"*ngIf="winner"> Player {{winner}} won the game!</h4>
+  </nav>
+
+
+<div class="container">
+    <main>
+        <app-square *ngFor="let val of squares; let i= index" [value]="val" (click)="makeMove(i)">
+        </app-square>
+    </main>
+</div>
+<div class="btn"><button (click)="newGame()">Try Again</button></div>
+

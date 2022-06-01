@@ -1,0 +1,49 @@
+main {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-gap: 0px;
+}
+  
+app-square {
+    border: 1px gray solid;
+    height: 150px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+ margin: 1rem;
+ padding: 10px;
+ color: green;
+ border: none;
+ border-radius: 10px;
+ display: flex;
+ justify-content: end;
+}
+button:hover{
+    background-color: aquamarine;
+   }
+
+.alert {
+    padding: 0.5rem;
+    margin-bottom: 0.1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+}
+h1{
+    color: white;
+}
+span{
+    color: red;
+    margin-left: 2rem;
+}
+nav{
+    margin-bottom: 10px;
+}
